@@ -1,0 +1,8 @@
+churches_group: Tematikus épületek
+churches_group_descr: A kápolnák, templomok és katedrálisok a saját lordjuk stílusát kapják meg.
+enabled: Vallási épületek igazítása a lordhoz
+enabled_tooltip: Az európai lordok templomokat, az arab lordok mecseteket építenek.
+preview: Tematikus épület előnézete elhelyezés előtt
+preview_tooltip: Válassz egy vallási épületet, hogy a kurzor alatt a lordod változatát lásd.
+qol: Kényelmi funkciók
+cat_display_camera: Megjelenítés és kamera

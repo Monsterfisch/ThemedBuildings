@@ -1,0 +1,17 @@
+meta:
+  version: 1.0.0
+config-sparse:
+  modules:
+    themed-buildings:
+      config:
+        chapel:
+          contents:
+            suggested-value: european
+        church:
+          contents:
+            suggested-value: arabian
+        cathedral:
+          contents:
+            suggested-value: european
+  plugins: {}
+  load-order: []

@@ -1,62 +1,26 @@
 options:
 - display: GroupBox
-  category: [Themed Buildings]
+  category:
+  - '{{qol}}'
+  - '{{cat_display_camera}}'
   header: '{{churches_group}}'
   text: '{{churches_group_descr}}'
   hasHeader: true
   children:
   - url: themed-buildings.enabled
     name: themed-buildings-enabled
-    text: '{{enabled}}'
-    tooltip: '{{enabled_tooltip}}'
-    display: Switch
+    text: '{{enabled_tooltip}}'
+    display: UCP2Switch
     contents:
       type: boolean
-      value: true
+      value: false
+    header: '{{enabled}}'
   - url: themed-buildings.preview
     name: themed-buildings-preview
-    text: '{{preview}}'
-    tooltip: '{{preview_tooltip}}'
-    display: Switch
+    text: '{{preview_tooltip}}'
+    enabled: themed-buildings.enabled == true
+    display: UCP2Switch
     contents:
       type: boolean
-      value: true
-  - url: themed-buildings.chapel
-    name: themed-buildings-chapel
-    text: '{{chapel}}'
-    tooltip: '{{files_tooltip}}'
-    display: Choice
-    contents:
-      type: string
-      value: european
-      choices:
-      - name: european
-        text: '{{european}}'
-      - name: arabian
-        text: '{{arabian}}'
-  - url: themed-buildings.church
-    name: themed-buildings-church
-    text: '{{church}}'
-    tooltip: '{{files_tooltip}}'
-    display: Choice
-    contents:
-      type: string
-      value: arabian
-      choices:
-      - name: european
-        text: '{{european}}'
-      - name: arabian
-        text: '{{arabian}}'
-  - url: themed-buildings.cathedral
-    name: themed-buildings-cathedral
-    text: '{{cathedral}}'
-    tooltip: '{{files_tooltip}}'
-    display: Choice
-    contents:
-      type: string
-      value: european
-      choices:
-      - name: european
-        text: '{{european}}'
-      - name: arabian
-        text: '{{arabian}}'
+      value: false
+    header: '{{preview}}'

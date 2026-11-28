@@ -1,0 +1,13 @@
+meta:
+  version: 1.0.0
+config-sparse:
+  modules:
+    themed-buildings:
+      config:
+        enabled:
+          contents:
+            suggested-value: true
+        preview:
+          contents:
+            suggested-value: true
+  plugins: {}

@@ -1,0 +1,8 @@
+churches_group: 主题建筑
+churches_group_descr: 让小教堂、教堂和大教堂呈现所属领主对应的建筑风格。
+enabled: 使宗教建筑与领主风格匹配
+enabled_tooltip: 欧洲领主建造教堂，阿拉伯领主建造清真寺。
+preview: 放置前预览主题建筑
+preview_tooltip: 选择宗教建筑时，在光标下显示当前领主对应的外观。
+qol: 便利性改进
+cat_display_camera: 显示与镜头
